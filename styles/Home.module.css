@@ -12,6 +12,14 @@
   align-items: center;
 }
 
+.mainDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .footer {
   display: flex;
   flex: 1;
@@ -28,10 +36,6 @@
   flex-grow: 1;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
 
 .title a:hover,
 .title a:focus,
@@ -42,10 +46,18 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3rem;
+}
+
+
+.subtitle {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2rem;
 }
 
 .title,
+.subtitle,
 .description {
   text-align: center;
 }
@@ -63,6 +75,21 @@
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.gift-button {
+  background-color: #B91E36;
+  color: #FFF;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.gift-button:hover {
+  background-color: #721224;
 }
 
 .grid {
