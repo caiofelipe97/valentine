@@ -23,11 +23,11 @@ export default function Home() {
               Vamos para o Luan City Festival em Curitiba!
             </h1>
             <div>
-              <Image alt="voo" src={Voo} width={380} height={300} />
+              <Image alt="voo" src={Voo} width={360} height={300} />
               <Image
                 alt="luan-city-festival"
                 src={LuanCityFestival}
-                width={380}
+                width={360}
                 height={200}
               />
             </div>
@@ -39,7 +39,7 @@ export default function Home() {
                 "https://www.youtube.com/watch?v=JwNmNoWrz70&ab_channel=LuanSantana"
               }
               playing={true}
-              width={380}
+              width={360}
               height={300}
             />
           </div>
